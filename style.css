@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+    border: 2px black solid;
+    width: 250px;
+    padding: 24px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar .logo img {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(202, 201, 201);
+    font-size: 15px;
+
+}
+
+.sidebar li .fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 20px
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar .create {
+    margin-top: 40px;
+}
+
+.main {
+    margin-left: 250px; 
+    height: 100vh;
+}
+
+.topbar {
+    display: flex;
+    justify-content: end;
+    height: 70px;
+    align-items: center;
+    background-color: #000000;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: rgb(197, 196, 196);
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.topbar .slash {
+    color: white;
+    font-size: 26px;
+    margin-right: 30px;
+}
+
+.topbar .btn {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+.list {
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.item {
+
+    width: 160px;
+    height: 240px;
+    background-color: rgb(40, 41, 41);
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+input[type=range] {
+    margin-bottom: 20px;
+}
+
+.spotify {
+
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.item img {
+
+    height: 70%;
+
+}
+
+
+.item .fa-play {
+    display: none;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+
+.item:hover {
+    background-color: rgb(67, 67, 68);
+}
+
+input {
+    width: 200px;
+}
